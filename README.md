@@ -15,7 +15,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 
 ## Scripts
 
-*`npm start` - Start the application 
+* `npm start` - Start the application 
 
 * `npm run dev` - Start nodemon for the application 
 
