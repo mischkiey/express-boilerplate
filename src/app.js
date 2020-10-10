@@ -16,18 +16,18 @@ app.use(helmet());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!')
+  res.send('Hello, world!')
 });
 
 app.use(function errorHandler(error, req, res, next) { /* eslint-disable-line no-unused-var */
-    let response;
-    if (NODE_ENV === 'production') {
-        response = { error: { message: 'Internal server error' } };
-    } else {
-        console.log(error);
-        response = { message: error.message, error }
-    };
-    res.status(500).json(response);
+  let response;
+  if (NODE_ENV === 'production') {
+      response = { error: { message: 'Internal server error' } };
+  } else {
+      console.log(error);
+      response = { message: error.message, error }
+  };
+  res.status(500).json(response);
 });
 
 module.exports = app;

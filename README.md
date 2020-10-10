@@ -15,11 +15,11 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 
 ## Scripts
 
-Start the application `npm start`
+*`npm start` - Start the application 
 
-Start nodemon for the application `npm run dev`
+* `npm run dev` - Start nodemon for the application 
 
-Run the tests `npm test`
+* `npm test` - Run the tests 
 
 ## Deploying
 
